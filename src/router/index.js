@@ -3,9 +3,14 @@ import AboutPage from '../pages/AboutPage.vue'
 
 const routes = [
   {
-    path: '/about',
+    path: '/',
     name: 'About',
     component: AboutPage,
+  },
+  {
+    path: '/todos',
+    name: 'Todos',
+    component: () => import('../modules/todos/pages/TodosPage'),
   }
 ]
 

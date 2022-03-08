@@ -1,0 +1,15 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  transition: 0.125s all;
+  
+  &:hover {
+    color: #0275d8;
+  }
+}
