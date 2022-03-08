@@ -1,7 +1,5 @@
 <template>
-  <navigation-bar/>
-
-  <div>
+  <page-template>
     <h1>О проекте</h1>
 
     <div>
@@ -29,19 +27,20 @@
     <div>
       <h2>Компоненты - "./components"</h2>
       <p>Меню навигации - "./NavigationBar"</p>
+      <p>Шаблон страницы - "./PageTemplate"</p>
     </div>
 
     <div>
       <h2>Модули - "./modules"</h2>
       <p>Страницы, компоненты и т.д. специфичные только для этой сущности (todos) - "./todos"</p>
     </div>
-  </div>
+  </page-template>
 </template>
 
 <script>
-  import NavigationBar from '@/components/NavigationBar'
+  import PageTemplate from '@/components/PageTemplate'
 
   export default {
-    components: { NavigationBar }  
+    components: { PageTemplate }  
   }
 </script>

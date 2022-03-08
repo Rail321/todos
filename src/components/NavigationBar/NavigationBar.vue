@@ -1,6 +1,6 @@
 <template>
-  <div class="container">
-    <ul class="d-flex list-style-none px-1">
+  <div class="container px-1">
+    <ul class="d-flex list-style-none mx-n1">
       <li class="p-1"
         v-for="(route, idx) of routes"
         v-bind:key="idx"
